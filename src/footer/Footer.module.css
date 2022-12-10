@@ -1,0 +1,18 @@
+.commonFooter{
+    height: 150px;
+    background-color: #b54f02;
+
+}
+
+.blokFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elem{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+}

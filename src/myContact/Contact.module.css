@@ -1,0 +1,15 @@
+.commonСontact {
+    height: 100vh;
+    background-color: #115101;
+}
+
+.containerСontact{
+display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    color: gold;
+}

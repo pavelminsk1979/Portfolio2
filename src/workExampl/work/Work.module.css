@@ -1,0 +1,16 @@
+.work {
+    width: 300px;
+    background-color: #886403;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.placeForWork {
+    width: 200px;
+    height: 200px;
+    background-color: #f802ea;
+
+}
