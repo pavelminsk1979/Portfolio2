@@ -3,3 +3,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+.navigator a{
+    font-family: 'Underdog', cursive;
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}

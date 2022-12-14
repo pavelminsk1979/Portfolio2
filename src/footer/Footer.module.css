@@ -1,6 +1,6 @@
 .commonFooter{
     height: 150px;
-    background-color: #b54f02;
+    background-color: #bf9b9b;
 
 }
 
@@ -13,6 +13,6 @@
 
 .elem{
     width: 500px;
-    height: 40px;
-    background-color: black;
+    height: 2px;
+    background-color: white;
 }

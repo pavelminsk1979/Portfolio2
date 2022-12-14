@@ -1,0 +1,22 @@
+.title {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title h2 {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 100;
+}
+
+.title::before {
+    position:absolute;
+    content: '';
+    width: 155px;
+    height: 2px;
+    background: white;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

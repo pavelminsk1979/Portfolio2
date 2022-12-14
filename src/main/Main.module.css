@@ -1,11 +1,10 @@
 .main {
     min-height: 100vh;
-    background-color: #0d2e5f;
+    background-color: #bf9b9b;
 
 }
 
 .frame {
-
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -13,15 +12,32 @@
     flex-wrap:wrap;
 }
 
-.left {
+.text {
     margin-top: 7%;
-    width: 300px;
-    color: gold;
+    width: 350px;
+
 }
+.text span,p {
+    font-family: 'Rubik Glitch', cursive;
+    color: #191f39;
+    font-size: 18px;
+
+}
+.text h1{
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 100;
+    color: white;
+}
+
 
 .foto {
     margin-top: 4%;
-    width: 300px;
+    width: 340px;
     height: 450px;
     background-color: silver;
+}
+@media screen and (max-width: 862px) {
+    .frame {
+        justify-content: center;
+    }
 }

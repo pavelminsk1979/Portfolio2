@@ -1,0 +1,26 @@
+.commonWorkExampl {
+  min-height: 100vh;
+  background-color: #bf9b9b;
+
+  .containerWorkExampl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .workExamplBlok {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      @media screen and (max-width: 899px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+
