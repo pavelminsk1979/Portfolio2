@@ -36,7 +36,7 @@
     height: 450px;
     background-color: silver;
 }
-@media screen and (max-width: 862px) {
+@media screen and (max-width: 879px) {
     .frame {
         justify-content: center;
     }
