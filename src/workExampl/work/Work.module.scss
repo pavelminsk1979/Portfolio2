@@ -1,6 +1,10 @@
+@import '../../common/styles/sass/variable';
+@import '../../common/styles/sass/mixins';
+
+
 .work {
     width: 330px;
-    background-color: #bf9b9b;
+    background-color: $primaryColor;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -9,10 +13,7 @@
     font-family: 'Underdog', cursive;
     font-weight: 900;
   .work span {
-    font-family: 'Underdog', cursive;
-    font-weight: 700;
-    color: #191f39;
-    font-size: 18px;
+    @include text ("'Underdog', cursive",700,18px)
   }
     .placeForWork {
         width: 100%;

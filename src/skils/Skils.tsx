@@ -10,7 +10,7 @@ export const Skils = () => {
         <div className={st.commonSkil}>
             <div className={`${stCommon.commonFrame} ${st.skilsContainer}`}>
 
-                <Title title={'ЗНАНИЕ ДЕЛА'}/>
+                <Title title={'ЗНАНИЯ'}/>
 
                 <div className={st.skilsBlok}>
 <ItemSkil titleItemSkil={'1'} description={' адрес одинаковый, а данные все видят по разному. Либо вообще показывается страница авторизации. Почему так происходит? Ведь вы нигде не указываете свой id'}/>
