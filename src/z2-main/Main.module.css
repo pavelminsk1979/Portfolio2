@@ -34,9 +34,11 @@
     margin-top: 4%;
     width: 340px;
     height: 450px;
-    background-color: silver;
+    background-size: cover;
+    background-position: center;
 }
-@media screen and (max-width: 879px) {
+
+@media screen and (max-width: 736px) {
     .frame {
         justify-content: center;
     }

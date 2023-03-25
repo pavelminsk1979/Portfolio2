@@ -1,9 +1,13 @@
 import React from 'react';
 import st from './Main.module.css';
 import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
+import myFotoImage from "../assets/image/myFoto.jpg";
 
 
 export const Main = () => {
+    const myFoto = {
+        backgroundImage:`url(${myFotoImage})`,
+    }
     return (
         <div className={st.main}>
             <div className={`${stComonFrame.commonFrame} ${st.frame}`}>
@@ -17,7 +21,7 @@ export const Main = () => {
 
                     </p>
                 </div>
-                <div className={st.foto}></div>
+                <div style={myFoto} className={st.foto}></div>
             </div>
         </div>
     )

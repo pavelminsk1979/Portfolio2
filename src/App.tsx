@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./header/Header";
-import {Main} from "./main/Main";
-import {Skils} from "./skils/Skils";
-import {WorkExampl} from "./workExampl/WorkExampl";
-import {Contact} from "./myContact/Contact";
-import {Footer} from "./footer/Footer";
+import {Header} from "./z1-header/Header";
+import {Main} from "./z2-main/Main";
+import {Skils} from "./z3-skils/Skils";
+import {Projects} from "./z4-projects/Projects";
+import {Contact} from "./z5-myContact/Contact";
+import {Footer} from "./z6-footer/Footer";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Header/>
       <Main/>
       <Skils/>
-      <WorkExampl/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </div>

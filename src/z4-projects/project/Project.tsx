@@ -1,12 +1,12 @@
 import React from 'react';
-import st from './Work.module.scss';
+import st from './Project.module.scss';
 
 type WorkType = {
     title: string
     description: string
     style:any
 }
-export const Work = (props: WorkType) => {
+export const Project = (props: WorkType) => {
     return (
         <div className={st.work}>
 

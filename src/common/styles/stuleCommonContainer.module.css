@@ -1,5 +1,6 @@
 .commonFrame{
     height: 100%;
-    width: 80%;
+    max-width: 985px;
     margin: 0 auto;
+    padding: 15px;
 }
