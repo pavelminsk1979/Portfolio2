@@ -1,7 +1,9 @@
+@import '../../common/styles/sass/variable.scss';
+
 .itemSkil {
     width: 250px;
     height: 230px;
-    background-color: #ceacac;
+    background-color: $primaryColor;
     margin-top: 20px;
     background-size: cover;
     background-position: center;

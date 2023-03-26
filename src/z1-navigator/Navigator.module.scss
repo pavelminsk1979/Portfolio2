@@ -1,3 +1,5 @@
+@import '../common/styles/sass/variable.scss';
+
 .navigator{
     width: 400px;
     display: flex;
@@ -5,9 +7,9 @@
 }
 
 .navigator a{
-    font-family: 'Underdog', cursive;
+    font-family: $NavigatorAndTextFont;
     font-weight: 900;
-    color: white;
-    font-size: 18px;
+    color: $titleColor;
+    font-size: 22px;
     text-decoration: none;
 }

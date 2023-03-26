@@ -1,5 +1,5 @@
 import React from 'react';
-import st from './Skils.module.css';
+import st from './Skils.module.scss';
 import stCommon from '../common/styles/stuleCommonContainer.module.css';
 import {ItemSkil} from "./itemSkil/ItemSkil";
 import {Title} from "../common/components/title/Title";
@@ -10,36 +10,46 @@ import htmlCssImage from "../assets/image/htmlCss.png";
 import reduxImage from "../assets/image/redux.png";
 import storybookImage from "../assets/image/storybook.jpg";
 import MaterialUiImage from "../assets/image/MI.png";
+import axiosImage from "../assets/image/axios.png";
+import gitImage from "../assets/image/git.jpg";
 
 
 export const Skils = () => {
 
     const JSFoto = {
-        backgroundImage:`url(${JSImage})`,
+        backgroundImage: `url(${JSImage})`,
     }
 
     const reactFoto = {
-        backgroundImage:`url(${reactImage})`,
+        backgroundImage: `url(${reactImage})`,
     }
 
     const TSFoto = {
-        backgroundImage:`url(${TSImage})`,
+        backgroundImage: `url(${TSImage})`,
     }
 
     const htmlCssFoto = {
-        backgroundImage:`url(${htmlCssImage})`,
+        backgroundImage: `url(${htmlCssImage})`,
     }
 
     const reduxFoto = {
-        backgroundImage:`url(${reduxImage})`,
+        backgroundImage: `url(${reduxImage})`,
     }
 
     const storybookFoto = {
-        backgroundImage:`url(${storybookImage})`,
+        backgroundImage: `url(${storybookImage})`,
     }
 
     const MaterialUiFoto = {
-        backgroundImage:`url(${MaterialUiImage})`,
+        backgroundImage: `url(${MaterialUiImage})`,
+    }
+
+    const axiosFoto = {
+        backgroundImage: `url(${axiosImage})`,
+    }
+
+    const gitFoto = {
+        backgroundImage: `url(${gitImage})`,
     }
 
 
@@ -56,8 +66,9 @@ export const Skils = () => {
                     <ItemSkil style={htmlCssFoto}/>
                     <ItemSkil style={reduxFoto}/>
                     <ItemSkil style={storybookFoto}/>
+                    <ItemSkil style={axiosFoto}/>
+                    <ItemSkil style={gitFoto}/>
                     <ItemSkil style={MaterialUiFoto}/>
-                    <ItemSkil/>
                 </div>
             </div>
         </div>

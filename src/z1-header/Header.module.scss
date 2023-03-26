@@ -1,6 +1,8 @@
+@import '../common/styles/sass/variable.scss';
+
 .header{
     height: 100px;
-    background-color: #bf9b9b;
+    background-color:$primaryColor;
 }
 
 .headerContainer{

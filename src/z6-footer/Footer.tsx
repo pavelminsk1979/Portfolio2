@@ -1,5 +1,5 @@
 import React from 'react';
-import st from './Footer.module.css';
+import st from './Footer.module.scss';
 import stCommon from '../common/styles/stuleCommonContainer.module.css';
 
 export const Footer = () => {

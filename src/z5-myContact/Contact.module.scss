@@ -1,5 +1,7 @@
+@import '../common/styles/sass/variable';
+
 .commonСontact {
-    background-color: #bf9b9b;
+    background-color:$primaryColor;
 }
 
 .containerСontact {
@@ -8,6 +10,19 @@
    align-items: center;
 
 }
+.input{
+padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #936161;
+  border-radius: 5px;
+}
+
+.textarea{
+  padding: 10px;
+  border: 2px solid #855353;
+  border-radius: 5px;
+}
+
 
 .blokInputTewtarea{
    display: flex;
@@ -20,16 +35,23 @@
     width: 100%;
 }
 .buttonSubmit{
-    padding: 7px 10px;
-    margin-top: 10px;
+    width: 120px;
+  height: 45px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    background-color: #fc0202;
+    background-color: #9e6767;
+  border: 2px solid #714141;
+  color: $titleColor;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px;
+}
+.buttonSubmit:hover{
+  width: 125px;
+  height: 45px;
+  background-color:$primaryColor;
+  box-shadow: 0px 10px 15px 5px;
 }
 
-.title {
-
-    color: gold;
-}
 
 @media screen and (max-width: 700px) { /*медиаЗапрос на Инпут и Текстерию
 и при сужении экрана размер(длинна Инпута и Текстерии)  увеличится*/

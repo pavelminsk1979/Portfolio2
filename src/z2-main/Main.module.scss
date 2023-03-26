@@ -1,0 +1,62 @@
+@import '../common/styles/sass/variable.scss';
+
+.main {
+    min-height: 100vh;
+    background-color: $primaryColor;
+
+}
+
+.frame {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.text {
+    margin-top: 7%;
+    width: 450px;
+
+}
+.text p {
+    font-family: $NavigatorAndTextFont;
+    color: $textColor;
+    font-size: 22px;
+    margin-top: 60px;
+}
+.text span {
+    font-family: $NavigatorAndTextFont;
+    font-size: 25px;
+    font-weight: bold;
+    color: $titleColor;
+    margin-left: 20px;
+}
+.text {
+    font-family: $NavigatorAndTextFont;
+    font-weight: bold;
+    color: $titleColor;
+    font-size: 38px;
+}
+
+.incubatorFoto{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.foto {
+    margin-top: 4%;
+    width: 340px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 835px) {
+    .frame {
+        justify-content: center;
+    }
+}

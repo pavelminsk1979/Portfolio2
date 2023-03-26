@@ -1,5 +1,5 @@
 import React from 'react';
-import st from './Navigator.module.css';
+import st from './Navigator.module.scss';
 
 export const Navigator = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import st from './itemSkil.module.css';
+import st from './itemSkil.module.scss';
 
 type ItemSkilType = {
     style?:any
