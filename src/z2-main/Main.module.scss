@@ -1,62 +1,93 @@
 @import '../common/styles/sass/variable.scss';
 
 .main {
-    min-height: 100vh;
-    background-color: $primaryColor;
-
+  min-height: 100vh;
+  background-color: $primaryColor;
 }
+
 
 .frame {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap:wrap;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .text {
-    margin-top: 7%;
-    width: 450px;
+  margin-top: 7%;
+  width: 450px;
 
 }
+
 .text p {
-    font-family: $NavigatorAndTextFont;
-    color: $textColor;
-    font-size: 22px;
-    margin-top: 60px;
-}
-.text span {
-    font-family: $NavigatorAndTextFont;
-    font-size: 25px;
-    font-weight: bold;
-    color: $titleColor;
-    margin-left: 20px;
-}
-.text {
-    font-family: $NavigatorAndTextFont;
-    font-weight: bold;
-    color: $titleColor;
-    font-size: 38px;
+  font-family: $NavigatorAndTextFont;
+  color: $textColor;
+  font-size: 22px;
+  margin-top: 60px;
 }
 
-.incubatorFoto{
-    width: 200px;
-    height: 50px;
-    background-size: cover;
-    background-position: center;
+.smallText {
+  font-family: $NavigatorAndTextFont;
+  font-size: 25px;
+  font-weight: bold;
+  color: $titleColor;
+  margin-left: 20px;
+}
+
+.frontend {
+  position: relative;
+  z-index: 0;
+}
+
+.frontend::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 43px;
+  background: $textColor;
+  bottom: 0px;
+  z-index: -1;
+}
+
+.text {
+  font-family: $NavigatorAndTextFont;
+  font-weight: bold;
+  color: $titleColor;
+  font-size: 38px;
+}
+
+.incubatorFoto {
+  width: 200px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 230px;
 }
 
 
 .foto {
-    margin-top: 4%;
-    width: 340px;
-    height: 450px;
-    background-size: cover;
-    background-position: center;
+  margin-top: 4%;
+  width: 340px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
 }
 
-@media screen and (max-width: 835px) {
-    .frame {
-        justify-content: center;
-    }
+@media screen and (max-width: 836px) {
+  .frame {
+    justify-content: center;
+  }
+}
+
+.foto::before {
+  position: absolute;
+  content: '';
+  width: 105%;
+  height: 110%;
+  border: 7px solid $titleColor;
+  top: -15px;
+  z-index: -1;
 }

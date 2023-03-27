@@ -1,5 +1,7 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import st from './itemSkil.module.scss';
+
 
 type ItemSkilType = {
     style?:any
@@ -7,9 +9,11 @@ type ItemSkilType = {
 
 export const ItemSkil = (props: ItemSkilType) => {
     return (
-        <div style={props.style}
-            className={st.itemSkil}>
+        <Fade >
+            <div style={props.style}
+                 className={st.itemSkil}>
+            </div>
+        </Fade >
 
-        </div>
     )
 }

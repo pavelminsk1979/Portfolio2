@@ -2,11 +2,13 @@ import React from 'react';
 import st from './Contact.module.scss';
 import stCommon from '../common/styles/stuleCommonContainer.module.css';
 import {Title} from "../common/components/title/Title";
+import { Zoom } from 'react-awesome-reveal';
 
 
 export const Contact = () => {
     return (
         <div className={st.commonСontact}>
+            <Zoom>
             <div className={`${stCommon.commonFrame} ${st.containerСontact}`}>
 
                 <Title title={'контакты'}/>
@@ -24,6 +26,7 @@ export const Contact = () => {
                 </form>
 
             </div>
+            </Zoom>
 
         </div>
     )

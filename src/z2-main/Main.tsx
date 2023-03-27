@@ -3,6 +3,9 @@ import st from './Main.module.scss';
 import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
 import myFotoImage from "../assets/image/myFoto.jpg";
 import itIncubatorImage from "../assets/image/itIncubator.png";
+import Fade, { Bounce } from "react-awesome-reveal";
+
+
 
 
 export const Main = () => {
@@ -14,25 +17,30 @@ export const Main = () => {
     }
     return (
         <div className={st.main}>
+
             <div className={`${stComonFrame.commonFrame} ${st.frame}`}>
+                <Fade >
                 <div className={st.text}>
                     <div>Приветствую!</div>
                     <div>Меня зовут Павел</div>
                     <div>
-                        <span>Я работаю</span>
-                        <div>Frontend-разработчиком</div>
+                        <span className={st.smallText}>Я работаю</span>
+                        <div><span className={st.frontend}>Frontend</span>
+                            <span>- разработчиком</span>
+                        </div>
                     </div>
 
                     <p>
-                        Погружался в мир программирования самостоятельно, потом прошёл обучение
-                          и стажировку в минской школе
+                        Погружался в мир программирования самостоятельно, после прошёл обучение и стажировку и остаюсь в сообществе
                     </p>
                     <div style={itIncubatorFoto} className={st.incubatorFoto}></div>
-                   {/* <p>
-                      Работаю в этой компании ментором и участвовую в разработке внутренних продуктов.
-                    </p>*/}
+
                 </div>
-                <div style={myFoto} className={st.foto}></div>
+                </Fade>
+                <Bounce>
+                    <div style={myFoto} className={st.foto}></div>
+                </Bounce>
+
             </div>
         </div>
     )

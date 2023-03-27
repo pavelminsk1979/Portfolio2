@@ -9,6 +9,7 @@ import trainImage from '../assets/image/train.jpg'
 import diplomImage from '../assets/image/diplom.jpg'
 
 
+
 export const Projects = () => {
     const social = {
         backgroundImage:`url(${socialImage})`,

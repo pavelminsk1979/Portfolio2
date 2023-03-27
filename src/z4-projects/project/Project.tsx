@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import st from './Project.module.scss';
 
 type WorkType = {
@@ -8,6 +9,7 @@ type WorkType = {
 }
 export const Project = (props: WorkType) => {
     return (
+        <Fade >
         <div className={st.work}>
 
             < div
@@ -17,6 +19,8 @@ export const Project = (props: WorkType) => {
             <h3>{props.title}</h3>
 
             <span>{props.description}</span>
+
         </div>
+        </Fade >
     )
 }
