@@ -1,7 +1,7 @@
 @import '../common/styles/sass/variable.scss';
 
 .navigator{
-    width: 400px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
 }
@@ -10,6 +10,6 @@
     font-family: $NavigatorAndTextFont;
     font-weight: 900;
     color: $titleColor;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none;
 }

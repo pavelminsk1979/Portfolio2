@@ -3,10 +3,8 @@ import st from './Main.module.scss';
 import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
 import myFotoImage from "../assets/image/myFoto.jpg";
 import itIncubatorImage from "../assets/image/itIncubator.png";
-import Fade, { Bounce } from "react-awesome-reveal";
+import Fade, {Bounce} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
-
-
 
 
 export const Main = () => {
@@ -20,31 +18,24 @@ export const Main = () => {
         <div className={st.main}>
 
             <div className={`${stComonFrame.commonFrame} ${st.frame}`}>
-                <Fade >
-                <div className={st.text}>
-                    <div>Приветствую!</div>
-                    <div>Меня зовут Павел</div>
-                    <div>
+                <Fade>
+                    <div className={st.textBlok}>
+                        <div>
+                            <span>Приветствую,</span>
+                            <span className={st.name}> я Павел!</span>
+                        </div>
+                        <span className={st.smallText}>моя работа</span>
 
-                        <ReactTypingEffect
-                            text={["Hello.", "World!"]}
-                        />
-
-                        <span className={st.smallText}>Я работаю</span>
-                        <div><span className={st.frontend}>Frontend</span>
-                            <span>- разработчиком</span>
-
-
+                        <div className={st.bigText}>
+                            <ReactTypingEffect
+                                text={["FRONTEND", "РАЗРАБОТЧИК"]}
+                            />
 
                         </div>
+
+                        <div style={itIncubatorFoto} className={st.incubatorFoto}></div>
+
                     </div>
-
-                    <p>
-                        Погружался в мир программирования самостоятельно, после прошёл обучение и стажировку и остаюсь в сообществе
-                    </p>
-                    <div style={itIncubatorFoto} className={st.incubatorFoto}></div>
-
-                </div>
                 </Fade>
                 <Bounce>
                     <div style={myFoto} className={st.foto}></div>
