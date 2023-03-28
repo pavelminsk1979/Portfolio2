@@ -4,6 +4,7 @@ import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
 import myFotoImage from "../assets/image/myFoto.jpg";
 import itIncubatorImage from "../assets/image/itIncubator.png";
 import Fade, { Bounce } from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 
 
@@ -24,9 +25,17 @@ export const Main = () => {
                     <div>Приветствую!</div>
                     <div>Меня зовут Павел</div>
                     <div>
+
+                        <ReactTypingEffect
+                            text={["Hello.", "World!"]}
+                        />
+
                         <span className={st.smallText}>Я работаю</span>
                         <div><span className={st.frontend}>Frontend</span>
                             <span>- разработчиком</span>
+
+
+
                         </div>
                     </div>
 
