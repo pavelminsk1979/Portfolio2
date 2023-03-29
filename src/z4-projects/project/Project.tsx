@@ -1,26 +1,27 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 import st from './Project.module.scss';
 
 type WorkType = {
     title: string
     description: string
-    style:any
+    style: any
 }
 export const Project = (props: WorkType) => {
     return (
-        <Fade >
-        <div className={st.work}>
+        <Fade>
+            <div className={st.block}>
+                <div className={st.left}>
 
-            < div
-                style={props.style}
-                className={st.placeForWork}></div>
+                    <h3>{props.title}</h3>
+                </div>
 
-            <h3>{props.title}</h3>
+                <div
+                    style={props.style}
+                    className={st.right}>
+                </div>
 
-            <span>{props.description}</span>
-
-        </div>
-        </Fade >
+            </div>
+        </Fade>
     )
 }

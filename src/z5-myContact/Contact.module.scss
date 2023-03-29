@@ -13,11 +13,19 @@
 }
 
 .left {
-  width: 500px;
+  flex-grow: 3;
+  min-width: 300px;
+  margin-top: 7px;
+}
+
+.right {
+  flex-grow: 5;
+  margin-left: 20px;
+  margin-top: 20px;
+  min-width: 300px;
 }
 
 .mail {
-  width: 560px;
   border: 2px solid #fce99a;
   border-radius: 10px;
   display: flex;
@@ -53,13 +61,14 @@
   border: 2px solid $titleColor;
   color: $primaryColor;
   border-radius: 8px;
+  box-shadow: 2px 2px 5px 2px #bdae5b;
 }
 
 .buttonSubmit:hover {
   width: 165px;
   height: 60px;
   background-color: #4e535c;;
-  box-shadow: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 5px 2px white;
 }
 
 

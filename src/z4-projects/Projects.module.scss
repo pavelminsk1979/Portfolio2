@@ -2,23 +2,22 @@
 
 .commonWorkExampl {
   min-height: 100vh;
-  background-color: $primaryColor;
+  background-color:white /*$primaryColor*/;
 
-  .containerWorkExampl {
+  /*.containerWorkExampl {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
 
     .workExamplBlok {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       flex-wrap: wrap;
-      align-items: flex-start;
       @media screen and (max-width: 706px) {
         justify-content: center;
       }
     }
-  }
+
 }
 
 

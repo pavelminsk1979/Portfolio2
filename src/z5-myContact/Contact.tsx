@@ -44,19 +44,22 @@ export const Contact = () => {
                 </div>
 
 
-                <Zoom>
-                    <form className={st.mail}>
-                        <input className={st.input}
-                               type="text" placeholder={'Имя'}/>
-                        <input className={st.input}
-                               type="text" placeholder={'e-mail'}/>
+                <div className={st.right}>
+                    <Zoom>
+                        <form className={st.mail}>
+                            <input className={st.input}
+                                   type="text" placeholder={'Имя'}/>
+                            <input className={st.input}
+                                   type="text" placeholder={'e-mail'}/>
 
-                        <textarea className={st.textarea}
-                                  placeholder={'Сообщение'}/>
+                            <textarea className={st.textarea}
+                                      placeholder={'Сообщение'}/>
 
-                        <button className={st.buttonSubmit} type='submit'>ОТПРАВИТЬ</button>
-                    </form>
-                </Zoom>
+                            <button className={st.buttonSubmit} type='submit'>ОТПРАВИТЬ</button>
+                        </form>
+                    </Zoom>
+                </div>
+
 
             </div>
 
