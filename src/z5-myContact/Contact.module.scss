@@ -1,61 +1,72 @@
 @import '../common/styles/sass/variable';
 
 .commonСontact {
-    background-color:$primaryColor;
+  background-color: $primaryColor;
 }
 
 .containerСontact {
-    display: flex;
-    flex-direction: column;
-   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
 }
-.input{
-padding: 10px;
-  margin-bottom: 15px;
+
+.left {
+  width: 500px;
+}
+
+.mail {
+  width: 560px;
+  border: 2px solid #fce99a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 3%;
+  box-shadow: 0px 0px 2px 0px;
+}
+
+
+.input {
+  padding: 15px;
+  margin-top: 35px;
   border: 2px solid #936161;
   border-radius: 5px;
 }
 
-.textarea{
-  padding: 10px;
+.textarea {
+  padding: 15px;
   border: 2px solid #855353;
   border-radius: 5px;
+  margin-top: 55px;
+  height: 150px;
 }
 
 
-.blokInputTewtarea{
-   display: flex;
-    width: 50%;
-    flex-direction: column;
-    align-items: center;
-
-}
-.blokInputTewtarea input, .blokInputTewtarea textarea{
-    width: 100%;
-}
-.buttonSubmit{
-    width: 120px;
-  height: 45px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: #9e6767;
-  border: 2px solid #714141;
-  color: $titleColor;
+.buttonSubmit {
+  width: 165px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: $titleColor;
+  border: 2px solid $titleColor;
+  color: $primaryColor;
   border-radius: 8px;
-  box-shadow: 0px 10px 20px;
 }
-.buttonSubmit:hover{
-  width: 125px;
-  height: 45px;
-  background-color:$primaryColor;
-  box-shadow: 0px 10px 15px 5px;
+
+.buttonSubmit:hover {
+  width: 165px;
+  height: 60px;
+  background-color: #4e535c;;
+  box-shadow: 5px 5px 5px 5px;
 }
 
 
-@media screen and (max-width: 700px) { /*медиаЗапрос на Инпут и Текстерию
-и при сужении экрана размер(длинна Инпута и Текстерии)  увеличится*/
-    .blokInputTewtarea {
-        width: 100%;
-    }
+@media screen and (max-width: 700px) {
+  /*медиаЗапрос на Инпут и Текстерию
+ и при сужении экрана размер(длинна Инпута и Текстерии)  увеличится*/
+  .blokInputTewtarea {
+    width: 100%;
+  }
 }

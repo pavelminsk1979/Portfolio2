@@ -3,8 +3,8 @@ import st from './Main.module.scss';
 import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
 import myFotoImage from "../assets/image/myFoto.jpg";
 import itIncubatorImage from "../assets/image/itIncubator.png";
-import Fade, {Bounce} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
+import  {Fade} from "react-awesome-reveal";
 
 
 export const Main = () => {
@@ -37,9 +37,9 @@ export const Main = () => {
 
                     </div>
                 </Fade>
-                <Bounce>
+                <Fade  >
                     <div style={myFoto} className={st.foto}></div>
-                </Bounce>
+                </Fade >
 
             </div>
         </div>
