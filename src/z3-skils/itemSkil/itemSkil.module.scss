@@ -1,44 +1,50 @@
 @import '../../common/styles/sass/variable.scss';
 
-.block{
-    display: flex;
-    flex-direction: column;
-    min-width: 450px;
-    height: 70px;
+.block {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  height: 150px;
 }
 
-.text{
-display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 600px) {
+  .block {
+    min-width: 300px;
+  }
 }
 
-.line{
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.line {
   display: flex;
 }
-.lineColor{
-    margin-top: 10px;
-    flex-grow: 5;
-    height: 15px;
-    border: 2px solid $primaryColor;
-    border-radius: 10px 0px 0px 10px;
-    background-color: $primaryColor;
+
+.lineColor {
+  margin-top: 10px;
+  height: 15px;
+  border: 2px solid $primaryColor;
+  border-radius: 10px 0px 0px 10px;
 }
-.lineWhite{
-    margin-top: 10px;
-    flex-grow: 2;
-    height: 15px;
-    border: 2px solid $primaryColor;
-    border-radius: 0px 10px 10px 0px;
-    background-color:whitesmoke ;
+
+.lineWhite {
+  margin-top: 10px;
+  height: 15px;
+  border: 2px solid $primaryColor;
+  border-radius: 0px 10px 10px 0px;
+  background-color: whitesmoke;
 }
 
 
 .itemSkil {
-    width: 250px;
-    height: 230px;
-    background-color: $primaryColor;
-    margin-top: 20px;
-    background-size: cover;
-    background-position: center;
+  width: 250px;
+  height: 230px;
+  background-color: $primaryColor;
+  margin-top: 20px;
+  background-size: cover;
+  background-position: center;
 }
 

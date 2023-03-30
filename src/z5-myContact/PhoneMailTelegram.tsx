@@ -13,6 +13,7 @@ export const PhoneMailTelegram = (props:PhoneMailTelegramType) => {
           <div className={st.picture}
               style={props.style}>
           </div>
+
           <div>{props.text}</div>
       </div>
   )

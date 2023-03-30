@@ -1,8 +1,7 @@
 import React from 'react';
 import st from './Contact.module.scss';
 import stCommon from '../common/styles/stuleCommonContainer.module.css';
-import {Title} from "../common/components/title/Title";
-import {Zoom} from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 import {PhoneMailTelegram} from "./PhoneMailTelegram";
 import phoneImage from "../assets/image/phone.png";
 import telegramImage from "../assets/image/telegram.jpg";
@@ -29,23 +28,19 @@ export const Contact = () => {
             <div className={`${stCommon.commonFrame} ${st.containerСontact}`}>
 
                 <div className={st.left}>
-                    <Title title={'контакты'}/>
-                    <div className={st.leftFrame}>
-                        <PhoneMailTelegram
-                            style={phoneFoto}
-                            text = 'телефон'/>
-                        <PhoneMailTelegram
-                            style={telegramFoto}
-                            text = 'телеграм'/>
-                        <PhoneMailTelegram
-                            style={mailFoto}
-                            text = 'почта'/>
-                    </div>
+                    <PhoneMailTelegram
+                        style={phoneFoto}
+                        text='+375 29 645 78 48'/>
+                    <PhoneMailTelegram
+                        style={telegramFoto}
+                        text='@pavelminsk1979'/>
+                    <PhoneMailTelegram
+                        style={mailFoto}
+                        text='pavelminsk1979@mail.ru'/>
                 </div>
 
-
                 <div className={st.right}>
-                    <Zoom>
+                    <Fade>
                         <form className={st.mail}>
                             <input className={st.input}
                                    type="text" placeholder={'Имя'}/>
@@ -57,7 +52,7 @@ export const Contact = () => {
 
                             <button className={st.buttonSubmit} type='submit'>ОТПРАВИТЬ</button>
                         </form>
-                    </Zoom>
+                    </Fade>
                 </div>
 
 

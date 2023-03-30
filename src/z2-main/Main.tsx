@@ -20,20 +20,21 @@ export const Main = () => {
             <div className={`${stComonFrame.commonFrame} ${st.frame}`}>
                 <Fade>
                     <div className={st.textBlok}>
-                        <div>
-                            <span>Приветствую,</span>
+                        <div className={st.hello}>
+                            <span >Приветствую,</span>
                             <span className={st.name}> я Павел!</span>
                         </div>
                         <span className={st.smallText}>моя работа</span>
 
                         <div className={st.bigText}>
+                            <div className={st.frontend}>FRONTEND</div>
                             <ReactTypingEffect
-                                text={["FRONTEND", "РАЗРАБОТЧИК"]}
+                                text={["РАЗРАБОТЧИК"]}
                             />
 
                         </div>
 
-                        <div style={itIncubatorFoto} className={st.incubatorFoto}></div>
+                      {/*  <div style={itIncubatorFoto} className={st.incubatorFoto}></div>*/}
 
                     </div>
                 </Fade>

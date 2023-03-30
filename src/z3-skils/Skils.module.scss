@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: $titleColor;
 }
 
 .leftBlok{
@@ -21,7 +24,7 @@
     padding: 10px;
 }
 
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 936px) {
     .skilsBlok {
         justify-content: center;
     }

@@ -9,16 +9,19 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 .left {
   flex-grow: 3;
   min-width: 300px;
-  margin-top: 7px;
+  margin-top: 118px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
+  color: $titleColor;
 }
 
 .right {
+  height: 500px;
   flex-grow: 5;
   margin-left: 20px;
   margin-top: 20px;
@@ -62,6 +65,8 @@
   color: $primaryColor;
   border-radius: 8px;
   box-shadow: 2px 2px 5px 2px #bdae5b;
+  font-family: $NavigatorAndTextFont;
+  font-size: 20px;
 }
 
 .buttonSubmit:hover {

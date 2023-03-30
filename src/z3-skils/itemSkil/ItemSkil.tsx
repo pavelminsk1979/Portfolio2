@@ -1,26 +1,39 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 import st from './itemSkil.module.scss';
 
 
 type ItemSkilType = {
-    style?:any
+    nameSkil: string
+    percent: string
+    fractionLineWite: string
+    fractionLineColor: string
+    colorLine:string
 }
 
 export const ItemSkil = (props: ItemSkilType) => {
     return (
-        <Fade >
+        <Fade>
             <div className={st.block}>
                 <div className={st.text}>
-                    <div>JavaScript</div>
-                    <div>65%</div>
+                    <div>{props.nameSkil}</div>
+                    <div>{props.percent}</div>
                 </div>
                 <div className={st.line}>
-                    <div className={st.lineColor}></div>
-                    <div className={st.lineWhite}></div>
+                    <div
+                        className={st.lineColor}
+                        style={{flexGrow: props.fractionLineColor,
+                            backgroundColor: props.colorLine,
+                        }}
+                    ></div>
+
+                    <div
+                        className={st.lineWhite}
+                        style={{flexGrow: props.fractionLineWite}}></div>
                 </div>
             </div>
-        </Fade >
+        </Fade>
 
     )
 }
+
