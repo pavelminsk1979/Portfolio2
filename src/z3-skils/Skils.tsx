@@ -8,7 +8,7 @@ import {ItemSkil} from "./itemSkil/ItemSkil";
 export const Skils = () => {
 
     return (
-        <div className={st.commonSkil}>
+        <div id='skils' className={st.commonSkil}>
             <div className={stCommon.commonFrame}>
 
 

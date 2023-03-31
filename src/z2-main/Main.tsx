@@ -5,6 +5,7 @@ import myFotoImage from "../assets/image/myFoto.jpg";
 import itIncubatorImage from "../assets/image/itIncubator.png";
 import ReactTypingEffect from "react-typing-effect";
 import  {Fade} from "react-awesome-reveal";
+import { Tilt } from 'react-tilt'
 
 
 export const Main = () => {
@@ -39,7 +40,10 @@ export const Main = () => {
                     </div>
                 </Fade>
                 <Fade  >
-                    <div style={myFoto} className={st.foto}></div>
+                    <Tilt options={{max:25,scale:1}} >
+                        <div style={myFoto} className={st.foto}></div>
+                    </Tilt>
+
                 </Fade >
 
             </div>

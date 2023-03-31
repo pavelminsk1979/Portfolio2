@@ -23,7 +23,7 @@ export const Projects = () => {
         backgroundImage:`url(${diplomImage})`,
     }
     return (
-        <div className={st.commonWorkExampl}>
+        <div id='projects' className={st.commonWorkExampl}>
             <div className={stCommon.commonFrame}>
 
                 <div className={st.workExamplBlok}>

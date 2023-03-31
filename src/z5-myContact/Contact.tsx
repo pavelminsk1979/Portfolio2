@@ -23,7 +23,7 @@ export const Contact = () => {
     }
 
     return (
-        <div className={st.commonСontact}>
+        <div id='contact' className={st.commonСontact}>
 
             <div className={`${stCommon.commonFrame} ${st.containerСontact}`}>
 
