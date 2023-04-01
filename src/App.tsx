@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./z1-header/Header";
+import {Header} from "./x10-header/Header";
 import {Main} from "./z2-main/Main";
 import {Skils} from "./z3-skils/Skils";
 import {Projects} from "./z4-projects/Projects";
