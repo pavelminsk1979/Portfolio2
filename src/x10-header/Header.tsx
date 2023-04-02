@@ -12,8 +12,6 @@ export const Header = () => {
                 <Navigator/>
                 <BurgerNavigator/>
             </div>
-
-
         </div>
     )
 }

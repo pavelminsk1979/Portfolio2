@@ -7,7 +7,6 @@ import burgerImage from "../assets/image/burger.png";
 export const BurgerNavigator = () => {
     const [showMode, setShowMode] = useState(false)
     const onClickHundler = () => {
-        console.log(showMode)
         setShowMode(!showMode)
     }
 
@@ -22,7 +21,6 @@ export const BurgerNavigator = () => {
                 style={burgerFoto}
                 onClick={onClickHundler}
                 className={st.button}>
-
             </div>
 
             {showMode && <div className={st.link}>

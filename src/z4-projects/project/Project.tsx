@@ -9,7 +9,7 @@ type WorkType = {
 export const Project = (props: WorkType) => {
     return (
         <Fade>
-            <div className={st.block}>
+            <a className={st.block} href={'https://pavelminsk1979.github.io/Portfolio2/'}>
                 <div className={st.left}>
                     <h3 className={st.titleProject}>{props.title}</h3>
                     <div>вход на презентацию проекта</div>
@@ -20,7 +20,7 @@ export const Project = (props: WorkType) => {
                     className={st.right}>
                 </div>
 
-            </div>
+            </a>
         </Fade>
     )
 }

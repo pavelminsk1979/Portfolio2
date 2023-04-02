@@ -1,55 +1,13 @@
 @import '../common/styles/sass/variable.scss';
 
-/*.burgerNavigator{
-  width: 350px;
-  height: 400px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #2e2424;
-}
-
-@media screen and (min-width: 500px){
-  .burgerNavigator {
-    display: none;
-  }
-}
-
-.link{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-left: 50px;
-  border: 1px solid #6a0505;
-  height: 400px;
-  font-size: 34px;
-  font-family: $NavigatorAndTextFont;
-  font-weight: 900;
-  color: $titleColor;
-  text-decoration: none;
-}
-
-
-
-.button{
-  width: 80px;
-  height: 80px;
-  border: 1px solid red;
-  margin-top: 40px;
-}*/
-
 .burgerNavigator{
-    margin-top: 100px;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 550px){
     .burgerNavigator {
         display: none;
     }
@@ -58,27 +16,36 @@
 .link{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.burgerNavigator a{
+   align-items: center;
+    position: absolute;
+    right: 40%;
     font-family: $NavigatorAndTextFont;
-    font-weight: 900;
     color: $titleColor;
-    font-size: 34px;
-    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .button{
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
+    width: 70px;
+    height: 70px;
     background-size: cover;
-  border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 7%;
+    right: 3%;
 }
 
 .button:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+
+
+
+
+
+
+
+
+

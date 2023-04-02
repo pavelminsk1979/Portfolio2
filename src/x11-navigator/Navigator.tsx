@@ -5,7 +5,16 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 export const Navigator = () => {
     return (
         <div className={st.navigator}>
-            <a href="">главная</a>
+           {/* <a href="">главная</a>*/}
+            <Link
+                activeClass={st.active}
+                to=""
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}>
+                главная
+            </Link>
             <Link
                 activeClass={st.active}
                 to="skils"

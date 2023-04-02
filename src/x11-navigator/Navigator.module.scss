@@ -1,22 +1,19 @@
 @import '../common/styles/sass/variable.scss';
 
 .navigator{
+    cursor: pointer;
     width: 450px;
     display: flex;
     justify-content: space-between;
-
+    border: 1px solid red;
+    font-family: $NavigatorAndTextFont;
+    color: $titleColor;
+    font-size: 24px;
+    font-weight: 900;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .navigator {
         display: none;
     }
-}
-
-.navigator a{
-    font-family: $NavigatorAndTextFont;
-    font-weight: 900;
-    color: $titleColor;
-    font-size: 24px;
-    text-decoration: none;
 }
