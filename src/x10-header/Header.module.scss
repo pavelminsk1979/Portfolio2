@@ -4,7 +4,12 @@
     height: 100px;
     background-color:$primaryColor;
     position: relative;
-    //border: 1px solid red;
+}
+
+@media screen and (max-width: 600px){
+    .header {
+        height: 200px;
+    }
 }
 
 .headerContainer{

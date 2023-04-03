@@ -28,18 +28,22 @@ export const Projects = () => {
 
                 <div className={st.workExamplBlok}>
                     <Project
+                        link={'https://pavelminsk1979.github.io/samurai/#/'}
                         style={social}
                         title={'Social network'}/>
 
                     <Project
+                        link={''}
                         style={todol}
                         title={'Todolist'}/>
 
                     <Project
+                        link={'https://pavelminsk1979.github.io/counter/'}
                         style={train}
                         title={'Counter'}/>
 
                     <Project
+                        link={'https://pavelminsk1979.github.io/repeatTodolist2/'}
                         style={diplom}
                         title={'Pекламный проэкт'}/>
                 </div>

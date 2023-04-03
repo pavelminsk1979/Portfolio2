@@ -4,6 +4,7 @@
 
 .block{
   display: flex;
+  text-decoration: none;
 }
 
 .left {
@@ -13,8 +14,14 @@
   background-color: $primaryColor;
   color: $titleColor;
   font-family: 'Oswald', sans-serif;
-
 }
+
+@media screen and (max-width: 600px){
+  .left {
+    width: 280px;
+  }
+}
+
 .left:hover{
   transition: 0.9s;
   border: 1px solid $titleColor;
