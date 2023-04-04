@@ -2,7 +2,6 @@ import React from 'react';
 import st from './Main.module.scss';
 import stComonFrame from '../common/styles/stuleCommonContainer.module.css';
 import myFotoImage from "../assets/image/myFoto.jpg";
-import itIncubatorImage from "../assets/image/itIncubator.png";
 import ReactTypingEffect from "react-typing-effect";
 import  {Fade} from "react-awesome-reveal";
 import { Tilt } from 'react-tilt'
@@ -12,9 +11,7 @@ export const Main = () => {
     const myFoto = {
         backgroundImage: `url(${myFotoImage})`,
     }
-    const itIncubatorFoto = {
-        backgroundImage: `url(${itIncubatorImage})`,
-    }
+
     return (
         <div className={st.main}>
 
@@ -32,11 +29,7 @@ export const Main = () => {
                             <ReactTypingEffect
                                 text={["РАЗРАБОТЧИК"]}
                             />
-
                         </div>
-
-                      {/*  <div style={itIncubatorFoto} className={st.incubatorFoto}></div>*/}
-
                     </div>
                 </Fade>
                 <Fade  >

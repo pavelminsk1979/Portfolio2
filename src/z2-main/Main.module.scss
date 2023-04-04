@@ -97,14 +97,6 @@
   }
 }
 
-.incubatorFoto {
-  width: 200px;
-  height: 50px;
-  background-size: cover;
-  background-position: center;
-  margin-left: 230px;
-}
-
 
 .foto {
   margin-top: 25%;
@@ -116,6 +108,13 @@
   background-size: 90%;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .foto {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 1026px) {
@@ -134,4 +133,9 @@
   left: -10px;
   border: 18px solid white;
   z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  .foto::before {
+   display: none;
+  }
 }

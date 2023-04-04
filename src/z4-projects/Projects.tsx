@@ -5,7 +5,7 @@ import { Project } from './project/Project';
 import todoImage from '../assets/image/todol.jpg'
 import socialImage from '../assets/image/social.png'
 import trainImage from '../assets/image/train.jpg'
-import diplomImage from '../assets/image/diplom.jpg'
+import darkTopicImage from '../assets/image/dark2.jpg'
 
 
 
@@ -19,8 +19,8 @@ export const Projects = () => {
     const train = {
         backgroundImage:`url(${trainImage})`,
     }
-    const diplom = {
-        backgroundImage:`url(${diplomImage})`,
+    const darkTopic = {
+        backgroundImage:`url(${darkTopicImage})`,
     }
     return (
         <div id='projects' className={st.commonWorkExampl}>
@@ -33,7 +33,7 @@ export const Projects = () => {
                         title={'Social network'}/>
 
                     <Project
-                        link={''}
+                        link={'https://pavelminsk1979.github.io/mainTodolist/'}
                         style={todol}
                         title={'Todolist'}/>
 
@@ -44,8 +44,8 @@ export const Projects = () => {
 
                     <Project
                         link={'https://pavelminsk1979.github.io/repeatTodolist2/'}
-                        style={diplom}
-                        title={'Pекламный проэкт'}/>
+                        style={darkTopic}
+                        title={'Dark Theme'}/>
                 </div>
             </div>
         </div>
