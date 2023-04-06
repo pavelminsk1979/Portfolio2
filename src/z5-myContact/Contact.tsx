@@ -32,7 +32,7 @@ export const Contact = () => {
                         style={phoneFoto}
                         text='+375 29 645 78 48'/>
                     <PhoneMailTelegram
-                        link='https://t.me/@pavelminsk1979'
+                        link='https://t.me/pavelminsk1979'
                         style={telegramFoto}
                         text='@pavelminsk1979'/>
                     <PhoneMailTelegram
