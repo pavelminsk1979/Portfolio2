@@ -37,7 +37,7 @@ export const Contact = () => {
 
         },
         onSubmit: values => {
-            axios.post('http://localhost:3010/message', {
+            axios.post('https://node-js-sooty-one.vercel.app/message', {
                 email: values.email,
                 name: values.name,
                 message: values.message
