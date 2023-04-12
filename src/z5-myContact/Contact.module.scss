@@ -40,6 +40,7 @@
 
 
 .input {
+  width: 100%;
   padding: 15px;
   margin-top: 35px;
   border: 2px solid #936161;
@@ -47,6 +48,7 @@
 }
 
 .textarea {
+  width: 100%;
   padding: 15px;
   border: 2px solid #855353;
   border-radius: 5px;
@@ -82,5 +84,8 @@
  и при сужении экрана размер(длинна Инпута и Текстерии)  увеличится*/
   .blokInputTewtarea {
     width: 100%;
+  }
+  .right {
+    margin-left: 0;
   }
 }

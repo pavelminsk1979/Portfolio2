@@ -16,37 +16,37 @@ export const Skils = () => {
                     <div className={ st.leftBlok}>
                         <ItemSkil
                             colorLine={'#f7d16f'}
-                            fractionLineWite={'3'}
-                            fractionLineColor={'7'}
-                        percent={'70%'}
+                            fractionLineWite={'5'}
+                            fractionLineColor={'5'}
+                        percent={'50%'}
                             nameSkil={'JavaScript'}/>
-
-                        <ItemSkil
-                            colorLine={'#f7d16f'}
-                            fractionLineWite={'3'}
-                            fractionLineColor={'7'}
-                        percent={'70%'}
-                            nameSkil={'React'}/>
 
                         <ItemSkil
                             colorLine={'#f7d16f'}
                             fractionLineWite={'4'}
                             fractionLineColor={'6'}
                         percent={'60%'}
+                            nameSkil={'React'}/>
+
+                        <ItemSkil
+                            colorLine={'#f7d16f'}
+                            fractionLineWite={'6'}
+                            fractionLineColor={'4'}
+                        percent={'40%'}
                             nameSkil={'HTML&CSS'}/>
 
                         <ItemSkil
                             colorLine={'#f7d16f'}
-                            fractionLineWite={'1'}
-                            fractionLineColor={'9'}
-                        percent={'90%'}
+                            fractionLineWite={'3'}
+                            fractionLineColor={'7'}
+                        percent={'70%'}
                             nameSkil='Rest API' />
 
                         <ItemSkil
                             colorLine={'#f7d16f'}
-                            fractionLineWite={'2'}
-                            fractionLineColor={'8'}
-                        percent={'80%'}
+                            fractionLineWite={'4'}
+                            fractionLineColor={'6'}
+                        percent={'60%'}
                             nameSkil={'GitHub'}/>
                     </div>
 
@@ -60,9 +60,9 @@ export const Skils = () => {
 
                         <ItemSkil
                             colorLine={'#383b40'}
-                            fractionLineWite={'3'}
-                            fractionLineColor={'7'}
-                        percent={'70%'}
+                            fractionLineWite={'6'}
+                            fractionLineColor={'4'}
+                        percent={'40%'}
                             nameSkil={'StoryBook'}/>
 
                         <ItemSkil
@@ -74,9 +74,9 @@ export const Skils = () => {
 
                         <ItemSkil
                             colorLine={'#383b40'}
-                            fractionLineWite={'4'}
-                            fractionLineColor={'6'}
-                        percent={'60%'}
+                            fractionLineWite={'5'}
+                            fractionLineColor={'5'}
+                        percent={'50%'}
                             nameSkil={'UniTest'}/>
 
                         <ItemSkil
@@ -84,7 +84,7 @@ export const Skils = () => {
                             fractionLineWite={'7'}
                             fractionLineColor={'3'}
                         percent={'30%'}
-                            nameSkil={'Angular'}/>
+                            nameSkil={'Redux Toolkit'}/>
                     </div>
                 </div>
             </div>
