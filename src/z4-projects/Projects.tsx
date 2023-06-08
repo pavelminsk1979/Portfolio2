@@ -5,7 +5,7 @@ import { Project } from './project/Project';
 import todoImage from '../assets/image/todol.jpg'
 import socialImage from '../assets/image/social.png'
 import trainImage from '../assets/image/train.jpg'
-import darkTopicImage from '../assets/image/dark2.jpg'
+import cardsImage from '../assets/image/cards.jpg'
 
 
 
@@ -19,8 +19,8 @@ export const Projects = () => {
     const train = {
         backgroundImage:`url(${trainImage})`,
     }
-    const darkTopic = {
-        backgroundImage:`url(${darkTopicImage})`,
+    const cards = {
+        backgroundImage:`url(${cardsImage})`,
     }
     return (
         <div id='projects' className={st.commonWorkExampl}>
@@ -43,9 +43,9 @@ export const Projects = () => {
                         title={'Counter'}/>
 
                     <Project
-                        link={'https://pavelminsk1979.github.io/repeatTodolist2/'}
-                        style={darkTopic}
-                        title={'Dark Theme'}/>
+                        link={'https://pavelminsk1979.github.io/cards/#/packs/'}
+                        style={cards}
+                        title={'Learn from flashcards'}/>
                 </div>
             </div>
         </div>
